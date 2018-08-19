@@ -4,6 +4,8 @@
 # Fizzbuzz if divisible by both
 # nil if not divisible by either 3 or 5
 
-def fizzbuzz 
-  
+def fizzbuzz(int)
+  if int % 3 == 0 
+    "fizz"
+  end
 end
