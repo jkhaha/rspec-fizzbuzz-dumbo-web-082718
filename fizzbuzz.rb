@@ -5,19 +5,13 @@
 # nil if not divisible by either 3 or 5
 
 def fizzbuzz(int)
-  if int % 3 == 0 
-    "fizz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 5 == 0 
-    "buzz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 3 == 0 && int % 5 == 0
-    "fizzbuzz"
+  if int % 3 == 0 and int % 5 == 0
+    "FizzBuzz"
+  elsif int % 3 == 0 
+    "Fizz"
+  elsif int % 5 == 0 
+    "Buzz"
+  else
+    "nil"
   end
 end
