@@ -3,3 +3,7 @@
 # Buzz if divisible by 5
 # Fizzbuzz if divisible by both
 # nil if not divisible by either 3 or 5
+
+def fizzbuzz 
+  
+end
